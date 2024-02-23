@@ -10,7 +10,7 @@ terraform {
     bucket = "devopslearnhub-state-dev"
     key    = "minikube"
     region = "us-east-1"
-    dynamodb_table = "devopslearnhub-locking"
+    //dynamodb_table = "devopslearnhub-locking"
   }
 }
 
